@@ -78,7 +78,9 @@ $$
 &\leq
 \mu( 
     \bigcup_{n \in \mathbb{N}} E_n
-).
+) \\
+&=
+\mu (\lim_{n\rightarrow \infty} E_n).
 \end{aligned}
 $$
 
@@ -120,18 +122,10 @@ then
 
 $$
 \bigcup_{n\in \mathbb{N}}
-F_n
-=
-\bigcup_{n\in \mathbb{N}}
 E_n
-$$
-
-and for any $n\in \mathbb{N}$
-
-$$
-E_n \cap E_{n+1}
 =
-\emptyset.
+\bigsqcup_{n\in \mathbb{N}}
+F_n.
 $$
 
 So
@@ -144,7 +138,7 @@ $$
 )
 &=
 \mu(
-    \bigcup_{n \in \mathbb{N}}
+    \bigsqcup_{n \in \mathbb{N}}
     F_n
 ) \\
 &=
@@ -158,23 +152,27 @@ $$
     E_n \backslash E_{n-1} 
 )
 \cdots \ 
-(\ast)
+(*).
 \end{aligned}
 $$
 
-Since
-
+By the fact that
 $$
+\mu(
+    E_n \backslash E_{n-1} 
+)
+=
 \mu(E_n)
-<
-\infty,
+-
+\mu(E_{n-1})
+,
 $$
 
-then
+which is shown in `Lemma 1.25`,
 
 $$
 \begin{aligned}
-(\ast)
+(*)
 &=
 \sum_{n \in \mathbb{N}}
 \mu(E_n)
@@ -187,7 +185,7 @@ $$
 \mu(E_0) \\
 &=
 \lim_{n\rightarrow \infty}
-\mu(E_n)
+\mu(E_n).
 \end{aligned}
 $$
 
@@ -212,9 +210,145 @@ E_n
 E_1
 \backslash
 (
-    \bigcup_{n \in \mathbb{N}}
+    \bigsqcup_{n \in \mathbb{N}}
     F_n
 ).
 $$
 
-Using this result, we show by the same way of `.1`
+Thus
+
+$$
+\begin{aligned}
+\mu(
+    \lim_{n \rightarrow \infty}
+    E_n
+)
+&:=
+\mu(
+    \bigcap_{n \in \mathbb{N}}
+    E_n
+) \\
+&=
+\mu(
+    E_1
+    \backslash
+    (
+        \bigsqcup_{n \in \mathbb{N}}
+        F_n
+    )
+)\cdots (*)
+\end{aligned}
+$$
+
+Also by the fact that
+
+$$
+\mu(
+    E_1
+    \backslash
+    (
+        \bigsqcup_{n \in \mathbb{N}}
+        F_n
+    )
+) 
+=
+\mu(
+    E_1
+)
+-
+\mu(
+    \bigsqcup_{n \in \mathbb{N}}
+    F_n
+),
+$$
+
+we have
+
+$$
+\begin{aligned}
+(*)
+&=
+\mu(
+    E_1
+)
+-
+\mu(
+    \bigsqcup_{n \in \mathbb{N}}
+    F_n
+) \\
+&=
+\mu(
+    E_1
+)
+-
+\sum_{n \in \mathbb{N}}
+\mu(F_n) \\
+&=
+\mu(
+    E_1
+)
+-
+\sum_{n \in \mathbb{N}}
+\mu(E_n\backslash E_{n-1})\cdots (*).
+\end{aligned}
+$$
+
+Also by the fact that
+
+$$
+\mu(
+    E_n
+    \backslash
+    E_{n-1}
+) 
+=
+\mu(
+    E_n
+)
+-
+\mu(
+    E_{n-1}
+),
+$$
+
+we have
+
+$$
+\begin{aligned}
+(*)
+&=
+\mu(
+    E_1
+)
+-
+\sum_{n \in \mathbb{N}}
+\mu(E_n)
+-
+\mu(E_{n-1}) \\
+&=
+\mu(
+    E_1
+)
+-
+\lim_{n \rightarrow \infty}
+\sum_{k =1}^{n}
+\mu(E_k)
+-
+\mu(E_{k-1}) \\
+&=
+\mu(
+    E_1
+)
+-
+\lim_{n \rightarrow \infty}(
+    \mu(E_1)
+    -
+    \mu(E_n)
+)\\
+&=
+\lim_{n \rightarrow \infty}
+    \mu(E_n).
+\end{aligned}
+$$
+
+Thus we proved.
