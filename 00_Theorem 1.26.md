@@ -22,7 +22,7 @@ $$
 \mu (\lim_{n\rightarrow \infty} E_n),
 $$
 
-provided that there exists a set $X \in \mathfrak{A}$ with $\mu(A)<\infty$ such that $E_1\subset A.$
+provided that there exists a set $A \in \mathfrak{A}$ with $\mu(A)<\infty$ such that $E_1\subset A.$
 
 
 ```
