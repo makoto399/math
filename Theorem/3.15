@@ -1,0 +1,33 @@
+Hi In this video, Im going to prove Translation Invariace of Lebesgue Outer Measure.
+Lets see the statement.
+For every E in the Borel of Real Numbers and real number x, we have myu star L of (E + x) equals to myu star L of E.
+
+myu star L of E? defined as below.
+Lets start off L of In, In is left closed and right open interval, is defined as (bn - an), which means the length of the interval.
+So, myu star L is defined as infimum over all sequences of In, of summation of l of In such that union In includes E.
+
+Prerequisites.
+There is nothing special to mention.
+But of course, you need to know basic knowledge of set theory.
+
+So, Lets prove.
+
+Let I be an arbitrary set of left-closed right_open intervals such that the union of In over n includes E.
+If (E + x) is defined as the set of small (e + x) such that small e in capital E,
+so as the union of (In + x),
+by the definition of I,
+which corresponds to here,
+(E + x) is subset of (the union of In) + x,
+also equals to the union of (In + x).
+
+So I found out that the sequence of (In + x) covers (E + x),
+then since myu star L is infimum over the covers of E,
+myu star L of (E + x) is lesss than or equals to summation of l of (In + x).
+
+Also, since the length of an interval invariant if an interval move parralel, equals to summation of l of In.
+
+Since I is arbitrary, take infimum over left side, this leads to that myu star L of (E + x) is less than or equals to myu star L of E.
+
+Since x is arbitrary real number, the opposite is also True.
+
+then we proved.
