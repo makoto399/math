@@ -1,0 +1,32 @@
+Hi.
+In this video, I'm going to proove this theorem.
+Let's see the statement of the Theorem.
+
+The Lebesgue measure space, "Real Numbers", "R", "M", "mew", is translation invariant, that is, for every "E" and "x", then we have.
+first,
+"E" plus x is a element of "M",
+and
+"mew" of "E" plus x equals to "mew" of "E".
+second,
+for every "x",let
+"M" + x
+be set of "E" + x
+such that "E" is a element of "M"
+then,
+"M" + x
+equals to "M".
+
+
+for, prerequisite, you have to recognize that the Lebesgue Outer Measure "Mew" is translation invariant, that is, "Mew" of E plus x equals to "Mew" of "E".
+
+
+so, let's prove.
+
+
+let me show the first statement.
+For every "E", "x", and "a",
+"mew" of "A" cap "E" plus x,
+plus
+"mew" of "A" cap complement of "E" plus "x",
+equals
+"mew" of
