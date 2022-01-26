@@ -1,15 +1,17 @@
 Hi.
 In this video, I'm going to prove Translation Invariance of the Lebesgue Measure.
-As before I showed Translation Invariance of the Lebesgue "Outer" Measure, but this video shows the Lebesgue Measure.
 Let's see the statement of the Theorem.
 The Lebesgue measure space, real numbers, "R", sigma algebra, "M", measure, "mew", is translation invariant, that is, for every "E" and "x", then we have, 
 First, "E" plus x is an element of "M",
-and mew of "E" plus x equals to mew of "E".
+and mew of "E" plus x equals to mew of "E",
+such that "E" plus x, is defined as, the set of elements of small "e" added with x.
 Second, for every "x",
 let "M" + x be, set of "E" + x,
 such that "E" is a element of "M",
 then "M" + x equals to "M".
-For prerequisite, you have to recognize that the Lebesgue "outer" Measure is translation invariant, that is, mew of "E" plus x equals to mew of "E".
+Before proceeding to proof, to make the proof simple, I am going to set prerequisites.
+You have to recognize that the Lebesgue "outer" Measure is translation invariant, that is, mew of "E" plus x equals to mew of "E".
+Note that this is for the Lebesgue "Outer" Measure, but this theorem for the Lebesgue Measure.
 So, let's prove.
 Let me show the first statement.
 Let mew be the Lebesgue outer measure.
