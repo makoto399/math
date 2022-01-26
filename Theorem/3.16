@@ -9,7 +9,7 @@ Second, for every "x",
 let "M" + x be, set of "E" + x,
 such that "E" is a element of "M",
 then "M" + x equals to "M".
-For prerequisite, you have to recognize that the Lebesgue Outer Measure is translation invariant, that is, mew of "E" plus x equals to mew of "E".
+For prerequisite, you have to recognize that the Lebesgue "outer" Measure is translation invariant, that is, mew of "E" plus x equals to mew of "E".
 So, let's prove.
 Let me show the first statement.
 Let mew be the Lebesgue outer measure.
@@ -18,7 +18,7 @@ mew of "A" cap "E" plus x,
 plus mew of "A" cap complement of "E" plus x,
 equals mew of "A" cap "E" plus x,
 plus mew of "A" cap complement of "E" plus x,
-the diffenrece between before and after is the place of complement,
+the difference between before and after is the place of complement,
 and this equals mew of "A" cap "E" plus x "minus x",
 plus mew of "A" cap complement of "E" plus x, "minus x",
 which comes from the Lebesgue outer measure is translation invariant, of prerequisite, here,
