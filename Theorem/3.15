@@ -1,6 +1,6 @@
 Hi In this video, Im going to prove Translation Invariace of Lebesgue Outer Measure.
 Lets see the statement.
-For every E in the Borel of Real Numbers and real number x, we have myu star L of (E + x) equals to myu star L of E.
+For every E in the Power Set of Real Numbers and real number x, we have myu star L of (E + x) equals to myu star L of E.
 
 myu star L of E? defined as below.
 Lets start off L of In, In is left closed and right open interval, is defined as (bn - an), which means the length of the interval.
