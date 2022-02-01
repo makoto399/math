@@ -2,13 +2,12 @@ Hi.
 In this video, I'm going to prove Translation Invariance of the Lebesgue Measure.
 Let's see the statement of the Theorem.
 ,,,
-The Lebesgue measure space, real numbers, "R", sigma algebra, "M", measure, "mew", is translation invariant, that is, for every "E" and "x", then we have, 
+The Lebesgue measure space, real numbers, "R", sigma algebra, "M", measure, "mew", is translation invariant, that is, for every "E" and "x", we have, 
 First, "E" plus x is an element of "M",
-such that "E" plus x, is defined as, the set of elements of small "e" added with x.
+such that "E" plus x, is defined as, the set of elements of, small "e" added with x.
 and mew of "E" plus x equals to mew of "E",
 Second, for every "x",
-let "M" + x be, set of "E" + x,
-such that "E" is a element of "M",
+let "M" + x be, set of, "E" + x,
 then "M" + x equals to "M".
 ,,,
 Before proceeding to proof, to make the proof simple, I am going to set prerequisites.
@@ -22,22 +21,24 @@ Let mew be the Lebesgue outer measure.
 For every "E", "x", and "a",
 mew of "A" cap "E" plus x,
 plus mew of "A" cap complement of "E" plus x,
-equals mew of "A" cap "E" plus x,
+equals to mew of "A" cap "E" plus x,
 plus mew of "A" cap complement of "E" plus x,
 the difference between before and after is the place of complement,
 and this equals mew of "A" cap "E" plus x "minus x",
 plus mew of "A" cap complement of "E" plus x, "minus x",
-which comes from the Lebesgue outer measure is translation invariant, of prerequisite, here,
-and this equals mew of "A" minus x cap "E",
+which comes from that the Lebesgue outer measure is translation invariant, of prerequisite, here,
+and then equals mew of "A" minus x cap "E",
 plus mew of "A" minus x cap complement of "E",
-since these sets are mutually equal in a sense of set,
-and then equals to mew of "A" minus x, equals mew of "A", 
-which comes from the Lebesgue outer measure is translation invariant, of prerequisite, here,
+which comes from that these sets are mutually equal in a sense of set,
+and then equals to mew of "A" minus x,
+which comes from that mew is the Lebesgue outer measure,
+and then equals to mew of "A", 
+which comes from that the Lebesgue outer measure is translation invariant, of prerequisite, here,
 then, "E" plus x is an element of "M".
 Also by the definition of the Lebesgue measure and the translation invariance of the Lebesgue "outer" measure,
 mew of "E" plus x, equals mew of "E".
 Thus, we proved.
 For second statement, I skip to prove because it's easy to show by the same argument of the first statement.
-That' all.
+That's all.
 If you have any comments or questions, I'd appreciate your comments, thank you. 
 
