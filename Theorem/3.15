@@ -1,33 +1,28 @@
-Hi In this video, Im going to prove Translation Invariace of Lebesgue Outer Measure.
-Lets see the statement.
-For every E in the Power Set of Real Numbers and real number x, we have myu star L of (E + x) equals to myu star L of E.
-
-myu star L of E? defined as below.
-Lets start off L of In, In is left closed and right open interval, is defined as (bn - an), which means the length of the interval.
-So, myu star L is defined as infimum over all sequences of In, of summation of l of In such that union In includes E.
-
+Hi.
+In this video, I'm going to prove Translation Invariance of the Lebesgue Outer Measure.
+Let's see the statement of the Theorem.
+'''
+Let mew be the Lebesgue outer measure.
+For every "E", and "x", we have,
+mew of "E" plus "x" equals to mew of "E",
+such that, "E" plus x is defined as, a set of, small "e" plus x.
+'''
 Prerequisites.
 There is nothing special to mention.
-But of course, you need to know basic knowledge of set theory.
-
+'''
 So, Lets prove.
+Let, "I", be an arbitrary set of, left-closed right_open intervals, such that, the union of, "I", "n", over all "n", includes, "E".
+Then, "E" + x, is a subset of, the union of, "I", "n", + x,
+and equals to, the union of, "I", "n", + "x".
+Since mew is infimum over all sets of intervals such that cover the set, "E",
+mew of, "E" plus x, is lesss than or equals to, summation of, "l" of, "I", "n" plus "x",
+such that, "l" is the length of the interval.
+also, equals to, summation of "l" of, "I", "n",
+which comes from that the length of an interval is invariant if an interval moves parallel.
+Since "I" is arbitrary, take infimum over all "I", this leads to that mew of, "E" plus x is less than or equals to mew of "E".
+Since "x" is taken arbitrarily, the opposite can be easily shown.
+Thus, we proved.
+If you have any comments or questions, I'd appreciate your comments, thank you. 
 
-Let I be an arbitrary set of left-closed right_open intervals such that the union of In over n includes E.
-If (E + x) is defined as the set of small (e + x) such that small e in capital E,
-so as the union of (In + x),
-by the definition of I,
-which corresponds to here,
-(E + x) is subset of (the union of In) + x,
-also equals to the union of (In + x).
 
-So I found out that the sequence of (In + x) covers (E + x),
-then since myu star L is infimum over the covers of E,
-myu star L of (E + x) is lesss than or equals to summation of l of (In + x).
 
-Also, since the length of an interval invariant if an interval move parralel, equals to summation of l of In.
-
-Since I is arbitrary, take infimum over left side, this leads to that myu star L of (E + x) is less than or equals to myu star L of E.
-
-Since x is arbitrary real number, the opposite is also True.
-
-then we proved.

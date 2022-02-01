@@ -6,11 +6,12 @@ Consider the Lebesgue measure space, real numbers, "R", sigma algebra, "M", meas
 Let "E" be an element of "M", "Alpha" be an element of "R", and alpha "M" be a set of, alpha "E",
 such that alpha "E" is defined as a set of, alpha, small e.
 then first, If alpha equals to 0, then alpha "E" is an element of "M", and mew of alpha "E" equals to 0,
-Second, If alpha not equals to 0, then alpha "E" is an element of "M", and mew of alpha "E" equals to absolute value of alpha mew of "E".
+Second, If alpha not equals to 0, then alpha "E" is an element of "M", and mew of alpha "E" equals to absolute value of alpha, mew of "E".
 Third, If alpha is not equal to 0, then alpha "M" equals to "M".
 ,,,
 Before proceeding to proof, to make the proof simple, I am going to set prerequisites.
-You have to recognize that, for every x, we have a singleton of x is an element of "M" and the Lebesgue outer measure mew of x equals to 0.
+You have to recognize that,
+Let mew be the Lebesgue outer measure, for every x, we have a singleton of x is an element of "M", and the Lebesgue outer measure mew of x equals to 0.
 ,,,
 So, let's prove.
 Let me show the first statement.
@@ -19,7 +20,6 @@ Thus, mew of alpha "E" equals to mew of 0, by the above,
 and this equals to outer measure of 0, by the definition of mew,
 and this equals to 0, by the prerequisite. 
 Thus, we proved.
-
 For second statement,
 Let alpha be not equal to 0, "E" be an element of "M", mew be the Lebesgue outer measure and "A" is a subset of Real Numbers.
 Then, outer measure mew of alpha "E" equals to infimum over sets of, I, n, of summation of l, I, n, such that alpha "E" is subsets of union, of, I, n.
@@ -27,7 +27,6 @@ this is equivalent to "E" is a subset of union, of one in alpha, I, n,
 and if you recognize, one in alpha, I, n, as I dash, n, then you can rewrite as here.
 the length of alpha, I dash, n, equals to absolute value of alpha, l, I dash, n,
 and also absolute value of alpha can move to a head of summation, and also a head of infimum, then equals to absolute value of alpha, outer measure of "E".
-
 So, almost same as the above argument,
 you can see the left side of this equation equals to the outer measure of "A", which showed that alpha "E" is an element of "M",
 and measure of alpha "E" equals to absolute value of alpha, measure mew of "E".
