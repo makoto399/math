@@ -1,0 +1,23 @@
+
+Hi.
+In this video, I'm going to prove Monotone Convergence Theorem for Sequences of Measurable Sets.
+Let's see the statement of the Theorem.
+'''
+Let mew be a measure on a sigma algebra, "A", of subsets of a set, "X", and let, "E", "n", be a monotone sequence in, "A ".
+First, if, "E", "n", is monotonicaly increasing, then,
+limit of mew of, "E", "n", equals to, mew of limit of, "E", "n".
+Second, if, "E", "n", is monotonicaly decreasing, then, the same statement of above, but with condition that, there exists a set, "A", such that, the measure of, "A", is finite, and "A" includes, "E", "1".
+More simply, this can be replaced by, all "E", "n", has finite measure.
+'''
+Before proceeding to proof, to make the proof simple, I am going to set prerequisites.
+First, let, "E", "n", be a monotonically increasing sequence in a sigam algebra, then,
+the limit of, "E", "n", equals to cup over all, "n", of, "E", "n".
+On the other hand, if decreasing, then,
+the limit of, "E", "n", equals to cap over all, "n", of, "E", "n".
+Second, let mew be a measure on a sigma algebra, "A", then, for all, "E", 1, "E", 2, such that, "E", 1, is a subset of, "E", 2,
+and, measure of, "E", 1, is finite, we have, mew of, "E", 2, minus, "E", 1, equals to, mew of, "E", 2, minus, mew of "E", 1.
+'''
+So, Lets prove.
+First,
+If you have any comments or questions, I'd appreciate your comments, thank you. 
+
