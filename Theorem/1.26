@@ -18,6 +18,23 @@ Second, let mew be a measure on a sigma algebra, "A", then, for all, "E1", "E2",
 and, measure of, "E1", is finite, we have, mew of, "E2", minus, "E1", equals to, mew of, "E2", minus, mew of "E1".
 '''
 So, Lets prove.
-First,
+First, consider there exists, "n0", such that, mew of, "E", "n0", equals to infinity, then, by monotonicity of set of, "E", "n", and, monotonicity of measure mew of, we have, limit of mew of, "E", "n", equals to infinity.
+On the other hand, since, "E", "n0", is a subset of, union of, "E", "n",
+we have, infinity equals to, mew of, "E", "n0",
+and is less than or equals to, mew of, union, "E", "n",
+which comes from the monotonicity of measure mew,
+and equals to, mew of, limit, "E", "n",
+by the prerequisite 1.
+Thus, limit of mew of, "E", "n", equals to, mew of, limit of, "E", "n".
+Second, consider the case for any, n, mew of, "E", "n", is finite.
+we define for any, n, "F", "n", as, "E", "n", minus, "E", "n",minus 1, with, "E0", defined as empty set,
+then, union of, "E", "n", equals to, union of, "F", "n".
+please look at this union, for, "F", you would note that, "F" are mutually disjoint by the definiton of, "F". 
+Thus, mew of, limit of, "E", "n", equals to, mew of, union of, "E", "n", by the prerequisite 1,
+and equals to, mew of, union of, "F", "n", by the above,
+and equals to, mew of, summation of, mew of, "F", "n", by the monotone property of measure, mew,
+and equals to, mew of, summation of, mew of, "E", "n", minus, "E", "n", minus 1, by the definition of, "F".
+by the fact that..........
+
 If you have any comments or questions, I'd appreciate your comments, thank you. 
 
