@@ -6,6 +6,8 @@ Let's see the statement of the Theorem.
 Let mew be a measure on a sigma algebra, "A", of subsets of a set, "X"
 '''
 let, "E", n, be a monotone sequence in, "A".
+'
+Then, we have two statements below.
 '''
 First, if, "E", "n", is monotonicaly increasing, then,
 limit of, mew of, "E", "n", equals to, mew of limit of, "E", "n".
