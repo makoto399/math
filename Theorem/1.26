@@ -17,24 +17,107 @@ the limit of, "E", "n", equals to cap over all, "n", of, "E", "n".
 Second, let mew be a measure on a sigma algebra, "A", then, for all, "E1", "E2", such that, "E1", is a subset of, "E2",
 and, measure of, "E1", is finite, we have, mew of, "E2", minus, "E1", equals to, mew of, "E2", minus, mew of "E1".
 '''
-So, Lets prove.
-First, consider there exists, "n0", such that, mew of, "E", "n0", equals to infinity, then, by monotonicity of set of, "E", "n", and, monotonicity of measure mew of, we have, limit of mew of, "E", "n", equals to infinity.
-On the other hand, since, "E", "n0", is a subset of, union of, "E", "n",
-we have, infinity equals to, mew of, "E", "n0",
-and is less than or equals to, mew of, union, "E", "n",
-which comes from the monotonicity of measure mew,
-and equals to, mew of, limit, "E", "n",
-by the prerequisite 1.
-Thus, limit of mew of, "E", "n", equals to, mew of, limit of, "E", "n".
-Second, consider the case for any, n, mew of, "E", "n", is finite.
-we define for any, n, "F", "n", as, "E", "n", minus, "E", "n",minus 1, with, "E0", defined as empty set,
-then, union of, "E", "n", equals to, union of, "F", "n".
-please look at this union, for, "F", you would note that, "F" are mutually disjoint by the definiton of, "F". 
-Thus, mew of, limit of, "E", "n", equals to, mew of, union of, "E", "n", by the prerequisite 1,
-and equals to, mew of, union of, "F", "n", by the above,
-and equals to, mew of, summation of, mew of, "F", "n", by the monotone property of measure, mew,
-and equals to, mew of, summation of, mew of, "E", "n", minus, "E", "n", minus 1, by the definition of, "F".
-by the fact that..........
-
+So, Lets prove first statement.
+'''
+First, consider there exists, "n0", such that, mew of, "E", "n0", equals to infinity.
+'''
+then, limit of mew of, "E", "n", equals to infinity
+'''
+which comes from monotonicity of set of, "E", "n", and, monotonicity of measure mew
+'''
+Thus, infinity equals to, mew of, "E", "n0",
+'''
+which comes from the assumption above
+'''
+and is less than or equals to, mew of, union, "E", "n"
+'''
+which comes from that union of, E, n, is larger than or equals to "E", "n0", and that the measure mew has the property of monotonicity,
+'''
+and equals to, mew of, limit of, "E", "n",
+'''
+which comes from the prerequisite 1.
+'''
+Thus, limit of mew of, "E", "n", equals to, mew of, limit of, "E", "n"
+'''
+Second, consider the case for all, n, mew of, "E", "n", is finite
+'''
+we define for all, n, "F", "n", as, "E", "n", minus, "E", "n",minus 1
+'''
+with, "E0", defined as empty set
+'''
+then, union of, "E", "n", equals to, union of, "F", "n"
+'''
+please look at this union for, "F", you would note that, "F" are mutually disjoint by the definiton of, "F". 
+'''
+Thus, mew of, limit of, "E", "n", equals to, mew of, union of, "E", "n"
+'''
+which comes from the prerequisite 1
+'''
+and equals to, mew of, union of, "F", "n"
+'''
+by the above
+'''
+and equals to, summation of, mew of, "F", "n",
+'''
+which comes from the monotone property of measure, mew,
+'''
+and equals to, summation of, mew of, "E", "n", minus, "E", "n", minus 1
+'''
+which comes from the definition of, "F".
+'''
+and eqauls to, summation of, mew of, "E", "n", minus, mew of, "E", "n", minus 1
+'''
+which comes fromb the fact that, "E", "n", minus 1, is finite and prerequisite 1
+'''
+and equals to, limit of summation of, mew of, "E", "k", minus, mew of, "E", "k", minus 1
+'''
+which comes from the definition of limit
+'''
+and equals to, limit of, mew of, "E", "n", minus, mew of, "E0"
+'''
+which comes from calculating the finite summation part
+'''
+and equals to, limit of, mew of, "E", "n"
+'''
+by the fact that, mew of, "E0", equals to 0
+'''
+Thus, we proved.
+'''
+Lets prove second statement.
+'''
+we define for all n, "F", n, as, E, n, minus, E, n plus 1
+'''
+then, intersection of, E, n, equals to, E1, minus, disjoint union of, F, n
+'''
+which can be shown by picking arbitrary element in the left side, and showing the elemnt is in the right side, and doing the same way as replacing sides.
+'''
+Thus, mew of limit of, E, n, equals to, mew of intersection of, E, n
+'''
+which comes from the prerequisite 1
+'''
+and equals to mew of, E1 minus, disjoint union of, E,n
+'''
+which comes from the statement above
+'''
+and equals to mew of, E1, minus, mew of, union of, F,n0
+'''
+which comes from that the mew of the union of F, n, is finite, by the fact that the union of, F, n, is smaller than or equals to, E, 1, which hase finite measure
+'''
+and equals to mew of, E1, minus, summation of mew of, F,n
+'''
+which comes from the complete additiveness of measure mew
+'''
+and equals to mew of, E1, minus, summation of mew of, E,n, minus, E, n, minus 1
+'''
+which comes from the definition of, F,n
+'''
+and equals to mew of, E1, minus, summation of mew of, E, n, minus, mew of, E, n, minus 1
+'''
+which comes from that the measure of, E, n, minus 1, is finite by the assumption
+'''
+and consequently equals to limit of mew of, E, n
+'''
+Thus we proved
+'''
 If you have any comments or questions, I'd appreciate your comments, thank you. 
 
