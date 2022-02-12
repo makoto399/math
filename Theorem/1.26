@@ -3,9 +3,12 @@ Hi.
 In this video, I'm going to prove Monotone Convergence Theorem for Sequences of Measurable Sets.
 Let's see the statement of the Theorem.
 '''
-Let mew be a measure on a sigma algebra, "A", of subsets of a set, "X", and let, "E", n, be a monotone sequence in, "A".
+Let mew be a measure on a sigma algebra, "A", of subsets of a set, "X"
+'''
+let, "E", n, be a monotone sequence in, "A".
+'''
 First, if, "E", "n", is monotonicaly increasing, then,
-limit of mew of, "E", "n", equals to, mew of limit of, "E", "n".
+limit of, mew of, "E", "n", equals to, mew of limit of, "E", "n".
 Second, if, "E", "n", is monotonicaly decreasing, then, the same statement of above, but with condition that, there exists a set, "A", such that, the measure of, "A", is finite, and "A" includes, "E1".
 More simply, this can be replaced by, all "E", "n", has finite measure.
 '''
