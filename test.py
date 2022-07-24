@@ -1,4 +1,5 @@
 def function1():
+    x=0
     x=1
     x=2
     return 1
